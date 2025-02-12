@@ -1,0 +1,1683 @@
+[
+  {
+    "filename": "Annexures_for_Press_Release_in_Excel_December2024_Annex-I.xlsx",
+    "file_type": ".xlsx",
+    "file_size": 14180,
+    "timestamps": {
+      "created": "2025-01-14T12:03:07Z",
+      "modified": "2025-01-24T06:40:58Z",
+      "accessed": "2025-02-07T11:32:27.142054",
+      "metadata_extracted": "2025-02-07T11:36:36.402709"
+    },
+    "author": "Varsha",
+    "last_modified_by": "Pranav Aggarwal",
+    "schema": {
+      "table": [
+        {
+          "description": "This table appears to contain price index data for various food groups in India, with separate weights and indices for rural, urban, and combined areas."
+        },
+        {
+          "column": "Group Code",
+          "type": "string"
+        },
+        {
+          "column": "Sub-group Code",
+          "type": "string"
+        },
+        {
+          "column": "Description",
+          "type": "string"
+        },
+        {
+          "column": "Rural",
+          "sub-columns": [
+            "Weights",
+            "Nov. 24 Index (Final)",
+            "Dec. 24 Index (Prov.)"
+          ],
+          "type": "number"
+        },
+        {
+          "column": "Urban",
+          "sub-columns": [
+            "Weights",
+            "Nov. 24 Index (Final)",
+            "Dec. 24 Index (Prov.)"
+          ],
+          "type": "number"
+        },
+        {
+          "column": "Combined",
+          "sub-columns": [
+            "Weights",
+            "Nov. 24 Index (Final)",
+            "Dec. 24 Index (Prov.)"
+          ],
+          "type": "number"
+        }
+      ]
+    },
+    "volumetrics": {
+      "content_length": "14180",
+      "row_count": 38,
+      "column_count": 12,
+      "null_count": 111,
+      "duplicate_rows": 0
+    },
+    "content_summary": "This dataset appears to contain All-India Consumer Price Index (CPI) data, grouped by categories such as food and beverages, clothing, housing, fuel and light, household goods and services, health, transport and communication, recreation and amusement, education, personal care and effects, and miscellaneous. The data includes weights, indices for November 24th and December 24th of each year (with some provisional values), and a general index for all groups and consumer food price index.",
+    "system_info": {
+      "processing_node": "DESKTOP-PQENQBT",
+      "os": "Windows",
+      "python_version": "3.12.1"
+    }
+  },
+  {
+    "filename": "Documentation.docx",
+    "file_type": ".docx",
+    "file_size": 18718,
+    "timestamps": {
+      "created": "2025-01-19T14:28:00Z",
+      "modified": "2025-01-19T15:41:00Z",
+      "accessed": "2025-02-04T11:33:06.152674",
+      "metadata_extracted": "2025-02-06T22:55:50.713186"
+    },
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "schema": "tika",
+    "content_encoding": "",
+    "volumetrics": {
+      "character_count": "3356",
+      "word_count": "501",
+      "line_count": "23",
+      "page_count": "3"
+    },
+    "content_summary": "A resume analyzer uses Llama 3.1 AI model to generate summaries of PDF resumes. The program extracts text from PDFs using PyPDF2 and sends it to the ollama API in a post request.",
+    "system_info": {
+      "processing_node": "DESKTOP-PQENQBT",
+      "os": "Windows",
+      "python_version": "3.12.1"
+    }
+  },
+  {
+    "filename": "Monetary Policy Report Oct 24.pdf",
+    "file_type": ".pdf",
+    "file_size": 8048485,
+    "format": "application/pdf; version=1.6",
+    "timestamps": {
+      "created": "2024-10-08T15:39:38Z",
+      "modified": "2024-10-09T06:21:00Z",
+      "accessed": "2025-02-06T22:55:50.406184",
+      "metadata_extracted": "2025-02-06T23:07:59.626258"
+    },
+    "author": "iLovePDF",
+    "schema": [
+      {
+        "Table I.1": [
+          {
+            "description": "The table shows the voting pattern of central banks, reflecting diversity in individual members' assessments, expectations, and policy preferences."
+          },
+          {
+            "column": "Central Banks",
+            "type": "text"
+          },
+          {
+            "column": "Voting Pattern",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "Table I.1": [
+          {
+            "description": "Monetary Policy Committees and Policy Rate Voting Patterns Country Policy Meetings: April 2024 - September 2024"
+          },
+          {
+            "column": "Total meetings",
+            "type": "integer"
+          },
+          {
+            "column": "Meetings with full consensus",
+            "type": "integer"
+          },
+          {
+            "column": "Meetings without full consensus",
+            "type": "integer"
+          },
+          {
+            "column": "Variation in policy rate (basis points)",
+            "type": "integer"
+          }
+        ],
+        "Table I.2": [
+          {
+            "description": "Baseline Assumptions for Projections"
+          },
+          {
+            "column": "Indicator",
+            "type": "string"
+          },
+          {
+            "column": "MPR April 2024",
+            "type": "string"
+          },
+          {
+            "column": "MPR October 2024",
+            "type": "string"
+          },
+          {
+            "column": "Crude Oil (Indian basket)",
+            "type": "currency"
+          }
+        ]
+      },
+      {
+        "Table I.3": [
+          {
+            "description": "Reserve Bank and Professional Forecasters' projections"
+          },
+          {
+            "column": "Year",
+            "type": "string"
+          },
+          {
+            "column": "Indicator",
+            "type": "string"
+          },
+          {
+            "column": "Reserve Bank's Baseline Projections",
+            "type": "float"
+          },
+          {
+            "column": "Median Projections of Professional Forecasters",
+            "type": "float"
+          }
+        ]
+      },
+      {
+        "Table I.2": [
+          {
+            "description": "Assumptions set out in Table I.2"
+          },
+          {
+            "column": "Column not mentioned",
+            "type": "N/A"
+          },
+          {
+            "column": "Note: Column not explicitly defined, mentions assumptions set out in this table",
+            "type": "N/A"
+          }
+        ],
+        "Table I.4": [
+          {
+            "description": "Business Expectations Surveys"
+          },
+          {
+            "column": "Item",
+            "type": "String"
+          },
+          {
+            "column": "NCAER Business Confidence Index (July 2024)",
+            "type": "Number"
+          },
+          {
+            "column": "FICCI Overall Business Confidence Index (May 2024)",
+            "type": "Number"
+          },
+          {
+            "column": "Dun and Bradstreet Composite Business Optimism Index (July 2024)",
+            "type": "Number"
+          },
+          {
+            "column": "CII Business Confidence Index (October 2024)",
+            "type": "Number"
+          }
+        ],
+        "Table I.3": [
+          {
+            "description": "Professional forecasters polled in the September 2024 round of the Reserve Bank\u2019s survey expected real GDP growth"
+          },
+          {
+            "column": "Column not mentioned",
+            "type": "N/A"
+          }
+        ]
+      },
+      {
+        "Table 1.2": [
+          {
+            "description": "Baseline assumptions for domestic and global macroeconomic variables"
+          },
+          {
+            "column": "Assumptions",
+            "type": "text"
+          },
+          {
+            "column": "Variables",
+            "type": "text"
+          }
+        ],
+        "Chart I.9: Professional Forecasters' Projection of Real GDP Growth": [
+          {
+            "description": "Sources: Survey of Professional Forecasters, RBI and National Statistical Office"
+          },
+          {
+            "column": "Data Type",
+            "type": "unknown"
+          },
+          {
+            "column": "Growth Data",
+            "type": "unknown"
+          }
+        ],
+        "Chart I.10: Projection of Growth in Real GDP (y-o-y)": [
+          {
+            "description": "Fan chart depicting uncertainty around the baseline projection path"
+          },
+          {
+            "column": "Data Type",
+            "type": "unknown"
+          },
+          {
+            "column": "Growth Data",
+            "type": "unknown"
+          }
+        ]
+      },
+      {
+        "Chart II.7: Drivers of CPI Inflation": [
+          {
+            "description": "Sources: NSO; and RBI staff estimates."
+          },
+          {
+            "column": "Source",
+            "type": "text"
+          },
+          {
+            "column": "Drivers of CPI Inflation",
+            "type": "category"
+          },
+          {
+            "column": "Contribution to overall inflation",
+            "type": "percentage"
+          }
+        ],
+        "Chart II.8: CPI Food Inflation": [
+          {
+            "description": "Includes meat & fish, egg, milk and pulses.*: Includes fruits, sugar, non-alcoholic beverages and prepared meals.Note: Figures in parentheses indicate weights in CPI food and beverages."
+          },
+          {
+            "column": "Component",
+            "type": "category"
+          },
+          {
+            "column": "% Weight",
+            "type": "percentage"
+          }
+        ]
+      },
+      {
+        "Chart II.9": [
+          {
+            "description": "Financial Year Price Build-up (August 2024 over March 2024)"
+          },
+          {
+            "column": "Weight in CPI - food and beverages",
+            "type": "percentage"
+          },
+          {
+            "column": "Sources",
+            "type": "string"
+          }
+        ],
+        "Chart II.10": [
+          {
+            "description": "Cereals Inflation (y-o-y)"
+          },
+          {
+            "column": "Sources",
+            "type": "string"
+          },
+          {
+            "column": "Notes",
+            "type": "string"
+          }
+        ],
+        "Chart II.11": [
+          {
+            "description": "Vegetables inflation remained elevated till June 2024, but witnessed a sharp correction in July primarily because of favourable base effect."
+          },
+          {
+            "column": "None",
+            "type": "N/A"
+          }
+        ]
+      },
+      {
+        "Table II.1": [
+          {
+            "description": "Distribution of food inflation across States/UTs"
+          },
+          {
+            "column": "#",
+            "type": "count"
+          },
+          {
+            "column": "Food Inflation Range",
+            "type": "category"
+          },
+          {
+            "column": "2023-24 (Apr-Aug)",
+            "type": "count"
+          },
+          {
+            "column": "2024-25 (Apr-Aug)",
+            "type": "count"
+          }
+        ],
+        "Table II.2": [
+          {
+            "description": "Exclusion-based Measures of Inflation (y-o-y)"
+          },
+          {
+            "column": "Period",
+            "type": "date"
+          },
+          {
+            "column": "CPI excluding food and fuel",
+            "type": "number"
+          },
+          {
+            "column": "CPI excluding food, fuel, petrol, diesel",
+            "type": "number"
+          },
+          {
+            "column": "CPI excluding food, fuel, petrol, diesel, gold, silver",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "Table II.1.1": [
+          {
+            "description": "Determinants of Housing (Rent) Inflation"
+          },
+          {
+            "column": "Dep",
+            "type": "string"
+          },
+          {
+            "column": "\u0394 HR (-1)",
+            "type": "float"
+          },
+          {
+            "column": "IE (-1)",
+            "type": "float"
+          },
+          {
+            "column": "UMP (-1)",
+            "type": "float"
+          },
+          {
+            "column": "NLG (-1)",
+            "type": "float"
+          },
+          {
+            "column": "\u0394 NLT (-1)",
+            "type": "float"
+          },
+          {
+            "column": "\u0394HP (-1)",
+            "type": "float"
+          },
+          {
+            "column": "7CPC",
+            "type": "string"
+          },
+          {
+            "column": "Constant",
+            "type": "float"
+          },
+          {
+            "column": "R-squared",
+            "type": "float"
+          },
+          {
+            "column": "LM test for autocorrelation (p-value)",
+            "type": "float"
+          },
+          {
+            "column": "ARCH LM test (p-value)",
+            "type": "float"
+          }
+        ],
+        "Table II.3": [
+          {
+            "description": "Housing Trimmed mean measures"
+          }
+        ]
+      },
+      {
+        "Table II.3": [
+          {
+            "description": "Trimmed Mean Measures of Inflation (y-o-y)"
+          },
+          {
+            "column": "Month",
+            "type": "string"
+          },
+          {
+            "column": "5% trimmed",
+            "type": "number"
+          },
+          {
+            "column": "10% trimmed",
+            "type": "number"
+          },
+          {
+            "column": "25% trimmed",
+            "type": "number"
+          },
+          {
+            "column": "Weighted Median",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "Chart II.28": [
+          {
+            "description": "Staff Cost in Manufacturing and Services chart description"
+          },
+          {
+            "column": "Quarter",
+            "type": "string"
+          },
+          {
+            "column": "Staff cost growth (y-o-y)",
+            "type": "number"
+          },
+          {
+            "column": "Staff cost/value of production (right scale)",
+            "type": "number"
+          }
+        ],
+        "Chart II.29": [
+          {
+            "description": "Expectations of Cost and Price Conditions chart description"
+          },
+          {
+            "column": "Net response",
+            "type": "string"
+          }
+        ],
+        "Chart II.30": [
+          {
+            "description": "PMI chart description"
+          },
+          {
+            "column": null,
+            "type": null
+          }
+        ]
+      },
+      {
+        "Table III.1": [
+          {
+            "description": "Real GDP Growth (y-o-y, per cent)"
+          },
+          {
+            "column": "Item",
+            "type": "string"
+          },
+          {
+            "column": "2022-23",
+            "type": "number"
+          },
+          {
+            "column": "2023-24",
+            "type": "number"
+          },
+          {
+            "column": "Weighted Contribution*2022-23",
+            "type": "number"
+          },
+          {
+            "column": "Weighted Contribution*2023-24",
+            "type": "number"
+          },
+          {
+            "column": "2024-25 (FRE)",
+            "type": "string"
+          },
+          {
+            "column": "2024-25 (PE)",
+            "type": "string"
+          },
+          {
+            "column": "Q1",
+            "type": "number"
+          },
+          {
+            "column": "Q2",
+            "type": "number"
+          },
+          {
+            "column": "Q3",
+            "type": "number"
+          },
+          {
+            "column": "Q4",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "Table III.1.1": [
+          {
+            "description": "Dynamic Panel Estimates of Drivers of Consumption Growth"
+          },
+          {
+            "column": "PFCE",
+            "type": "numeric"
+          },
+          {
+            "column": "PFCE(-1)",
+            "type": "numeric"
+          },
+          {
+            "column": "(\u03c0i \u2212 \u03c0) \u00d7 1D",
+            "type": "numeric"
+          },
+          {
+            "column": "(\u03c0i \u2212 \u03c0) \u00d7 1N|D",
+            "type": "numeric"
+          },
+          {
+            "column": "Interest Rate (-1) \u00d7 1D",
+            "type": "numeric"
+          },
+          {
+            "column": "Interest Rate (-1) \u00d7 1N|D",
+            "type": "numeric"
+          },
+          {
+            "column": "GDP (-1) \u00d7 1D",
+            "type": "numeric"
+          },
+          {
+            "column": "GDP (-1) \u00d7 1N|D",
+            "type": "numeric"
+          },
+          {
+            "column": "GNDI (-1) \u00d7 1D",
+            "type": "numeric"
+          },
+          {
+            "column": "GNDI (-1) \u00d7 1N|D",
+            "type": "numeric"
+          },
+          {
+            "column": "Uncertainty \u00d7 1D",
+            "type": "numeric"
+          },
+          {
+            "column": "Uncertainty \u00d7 1N|D",
+            "type": "numeric"
+          }
+        ]
+      },
+      {
+        "Table III.1": [
+          {
+            "description": "Government final consumption expenditure (GFCE) contracted by 0.2 per cent (y-o-y) in Q1:2024-25"
+          },
+          {
+            "column": "Item",
+            "type": "string"
+          },
+          {
+            "column": "\u20b9 thousand crore",
+            "type": "number"
+          },
+          {
+            "column": "Per cent BE Actuals",
+            "type": "percentage"
+          }
+        ],
+        "Table III.2": [
+          {
+            "description": "Central Government\u2019s Tax Collections"
+          },
+          {
+            "column": "Item",
+            "type": "string"
+          },
+          {
+            "column": "\u20b9 thousand crore",
+            "type": "number"
+          },
+          {
+            "column": "Per cent BE Actuals",
+            "type": "percentage"
+          },
+          {
+            "column": "Growth Rate",
+            "type": "percentage"
+          }
+        ],
+        "Table III.3": [
+          {
+            "description": "Revenue deficit (RD) is expected to remain stable at 0.2 per cent of GDP"
+          }
+        ]
+      },
+      {
+        "Table III.3": [
+          {
+            "description": "State Government Finances - Key Deficit Indicators (Per cent to GDP)"
+          },
+          {
+            "column": "Year",
+            "type": "string"
+          },
+          {
+            "column": "Revenue Deficit",
+            "type": "number"
+          },
+          {
+            "column": "Gross Fiscal Deficit",
+            "type": "number"
+          },
+          {
+            "column": "Primary Deficit",
+            "type": "number"
+          }
+        ],
+        "Table III.4": [
+          {
+            "description": "Central Government\u2019s Gross Market Borrowings (H1:2024-25)"
+          },
+          {
+            "column": "Category",
+            "type": "string"
+          },
+          {
+            "column": "Amount (in lakh crore)",
+            "type": "number"
+          },
+          {
+            "column": "Percentage of Annual Budget Estimates",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "Table III.4": [
+          {
+            "description": "Government Market Borrowings (\u20b9 crore)"
+          },
+          {
+            "column": "Year",
+            "type": "string"
+          },
+          {
+            "column": "Centre",
+            "type": "numeric"
+          },
+          {
+            "column": "States",
+            "type": "numeric"
+          },
+          {
+            "column": "Total",
+            "type": "numeric"
+          }
+        ]
+      },
+      {
+        "Table III.5": [
+          {
+            "description": "Real GVA Growth (y-o-y, per cent) in various sectors"
+          },
+          {
+            "column": "Sector",
+            "type": "string"
+          },
+          {
+            "column": "2022-23",
+            "type": "number"
+          },
+          {
+            "column": "2023-24",
+            "type": "number"
+          },
+          {
+            "column": "Weighted Contribution 2022-23",
+            "type": "number"
+          },
+          {
+            "column": "Weighted Contribution 2023-24",
+            "type": "number"
+          },
+          {
+            "column": "Q1",
+            "type": "number"
+          },
+          {
+            "column": "Q2",
+            "type": "number"
+          },
+          {
+            "column": "Q3",
+            "type": "number"
+          },
+          {
+            "column": "Q4",
+            "type": "number"
+          },
+          {
+            "column": "2024-25 (FRE)",
+            "type": "number"
+          },
+          {
+            "column": "2024-25 (PE)",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "Table III.6": [
+          {
+            "description": "Agriculture Production in 2023-24 (Lakh tonnes)"
+          },
+          {
+            "column": "Item",
+            "type": "string"
+          },
+          {
+            "column": "2022-23",
+            "type": "number"
+          },
+          {
+            "column": "2023-24",
+            "type": "number"
+          },
+          {
+            "column": "Variation in 2023-24 (Per cent)",
+            "type": "string"
+          },
+          {
+            "column": "Final Third AE",
+            "type": "string"
+          },
+          {
+            "column": "Over Third AE 2023-24",
+            "type": "string"
+          },
+          {
+            "column": "Over 2022-23",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "Table III.7": [
+          {
+            "description": "Industrial Sector y-o-y growth (per cent)"
+          },
+          {
+            "column": "Indicators",
+            "type": "text"
+          },
+          {
+            "column": "2023-24",
+            "type": "numeric"
+          },
+          {
+            "column": "2024-25 Q1",
+            "type": "numeric"
+          },
+          {
+            "column": "2024-25 Q2",
+            "type": "numeric"
+          },
+          {
+            "column": "2024-25 Q3",
+            "type": "numeric"
+          },
+          {
+            "column": "2024-25 Q4",
+            "type": "numeric"
+          },
+          {
+            "column": "2024-25 Q1 Jul",
+            "type": "numeric"
+          },
+          {
+            "column": "2024-25 Aug Sep 1P",
+            "type": "numeric"
+          }
+        ]
+      },
+      {
+        "Table III.8": [
+          {
+            "description": "Services Sector y-o-y growth (per cent)"
+          },
+          {
+            "column": "Indicators",
+            "type": "string"
+          },
+          {
+            "column": "2023-24",
+            "type": "number"
+          },
+          {
+            "column": "2024-25",
+            "type": "number"
+          },
+          {
+            "column": "Q1",
+            "type": "number"
+          },
+          {
+            "column": "Q2",
+            "type": "number"
+          },
+          {
+            "column": "Q3",
+            "type": "number"
+          },
+          {
+            "column": "Q4",
+            "type": "number"
+          },
+          {
+            "column": "Q1",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "Table IV.2": [
+          {
+            "description": "Moderation in corporate performance"
+          },
+          {
+            "column": "Issuer",
+            "type": "string"
+          },
+          {
+            "column": "Risk Premium (3-year AAA corporate bond yields over 3-year G-sec yields)",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "Table IV.2": [
+          {
+            "description": "Financial Markets - Rates and Spread Interest Rates"
+          },
+          {
+            "column": "Instrument",
+            "type": "category"
+          },
+          {
+            "column": "September 2023",
+            "type": "numeric"
+          },
+          {
+            "column": "March 2024",
+            "type": "numeric"
+          },
+          {
+            "column": "September 2024",
+            "type": "numeric"
+          },
+          {
+            "column": "September 2023",
+            "type": "numeric"
+          },
+          {
+            "column": "March 2024",
+            "type": "numeric"
+          },
+          {
+            "column": "September 2024",
+            "type": "numeric"
+          }
+        ]
+      },
+      {
+        "Table IV.1.1": [
+          {
+            "description": "Monetary policy surprises can be decomposed into \u2018target\u2019 and \u2018path\u2019 factors. The former reflects unexpected changes in the contemporaneous policy rate, while the latter represents surprises in its future trajectory."
+          },
+          {
+            "column": "Sensex returns",
+            "type": "numeric"
+          },
+          {
+            "column": "target factor",
+            "type": "numeric"
+          },
+          {
+            "column": "path factor",
+            "type": "numeric"
+          }
+        ]
+      },
+      {
+        "Table IV.3": [
+          {
+            "description": "Nominal and Real Effective Exchange Rate Indices (Trade-weighted) (Base: 2015-16 = 100)"
+          },
+          {
+            "column": "Item",
+            "type": "string"
+          },
+          {
+            "column": "Index:Appreciation (+) / Depreciation (-) (Per cent)",
+            "type": "string"
+          },
+          {
+            "column": "September 27, 2024 (P)",
+            "type": "number"
+          },
+          {
+            "column": "September 27, 2024, over March (average) 2024",
+            "type": "number"
+          }
+        ],
+        "Table IV.2.1": [
+          {
+            "description": "Variables for FCI"
+          },
+          {
+            "column": "Money Market",
+            "type": "string"
+          },
+          {
+            "column": "WAMMR spread over repo rate",
+            "type": "string"
+          },
+          {
+            "column": "WAMMR volatility",
+            "type": "string"
+          },
+          {
+            "column": "Net LAF / NDTL3M CP (NBFC) over T-Bill",
+            "type": "string"
+          },
+          {
+            "column": "G-sec Market",
+            "type": "string"
+          },
+          {
+            "column": "Yield Curve level",
+            "type": "string"
+          },
+          {
+            "column": "Yield Curve slope",
+            "type": "string"
+          },
+          {
+            "column": "Yield Curve curvature",
+            "type": "string"
+          },
+          {
+            "column": "Corporate Bond Market",
+            "type": "string"
+          },
+          {
+            "column": "AAA 3yr spread",
+            "type": "string"
+          },
+          {
+            "column": "AAA 5yr spread",
+            "type": "string"
+          },
+          {
+            "column": "AA 3yr spread",
+            "type": "string"
+          },
+          {
+            "column": "AA 5yr spread",
+            "type": "string"
+          },
+          {
+            "column": "Forex Market",
+            "type": "string"
+          },
+          {
+            "column": "India US 10yr yield differential",
+            "type": "string"
+          },
+          {
+            "column": "USD-INR 1M ATM volatility",
+            "type": "string"
+          },
+          {
+            "column": "Currency return",
+            "type": "string"
+          },
+          {
+            "column": "1M forward premia",
+            "type": "string"
+          },
+          {
+            "column": "Equity Market",
+            "type": "string"
+          },
+          {
+            "column": "India VIX",
+            "type": "string"
+          },
+          {
+            "column": "PE level relative to 2yr moving average",
+            "type": "string"
+          },
+          {
+            "column": "BSE Sensex return",
+            "type": "string"
+          },
+          {
+            "column": "BSE Mid-Cap return",
+            "type": "string"
+          },
+          {
+            "column": "BSE Small-Cap return",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "Table IV.4": [
+          {
+            "description": "Transmission from the Repo Rate to Banks\u2019 Deposit and Lending Rates (Variation in basis points)"
+          },
+          {
+            "column": "Period",
+            "type": "string"
+          },
+          {
+            "column": "Repo Rate",
+            "type": "numeric"
+          },
+          {
+            "column": "Term Deposit Rates",
+            "type": "numeric"
+          },
+          {
+            "column": "Lending Rates",
+            "type": "numeric"
+          },
+          {
+            "column": "WADTDR - Fresh Deposits",
+            "type": "numeric"
+          },
+          {
+            "column": "WADTDR- Outstanding Deposits",
+            "type": "numeric"
+          },
+          {
+            "column": "EBLR1-Yr. MCLR (Median)",
+            "type": "numeric"
+          },
+          {
+            "column": "WALR - Fresh Rupee Loans",
+            "type": "numeric"
+          },
+          {
+            "column": "WALR- Outstanding Rupee Loans",
+            "type": "numeric"
+          }
+        ]
+      },
+      {
+        "Table IV.5": [
+          {
+            "description": "Spread of WALR (Fresh Loans) over the Repo Rate for the Loans linked to External Benchmark (Per cent)"
+          },
+          {
+            "column": "Sectors",
+            "type": "string"
+          },
+          {
+            "column": "Public sector banks",
+            "type": "number"
+          },
+          {
+            "column": "Private sector banks",
+            "type": "number"
+          },
+          {
+            "column": "Domestic banks",
+            "type": "number"
+          }
+        ],
+        "Table IV.6": [
+          {
+            "description": "Competitive rates are now being offered on post office time deposits of shorter tenor"
+          },
+          {
+            "column": "None",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "Table IV.6": [
+          {
+            "description": "Interest Rates on Small Savings Instruments \u2013 Q3:2024-25"
+          },
+          {
+            "column": "Maturity (years)",
+            "type": "number"
+          },
+          {
+            "column": "Spread (Percentage point)",
+            "type": "number"
+          },
+          {
+            "column": "$Average G-sec yield (%) of corresponding maturity (Jun 2024-Aug 2024)",
+            "type": "number"
+          },
+          {
+            "column": "Formula based rate of Interest (%) (applicable for Q3: 2024-25)",
+            "type": "number"
+          },
+          {
+            "column": "GoI Announced Rate of interest for Q3:2024-25 (in %)",
+            "type": "number"
+          },
+          {
+            "column": "Difference (Percentage point)",
+            "type": "number"
+          }
+        ],
+        "Table IV.7": [
+          {
+            "description": "Average daily net absorption under the LAF in Q2"
+          },
+          {
+            "column": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "Table IV.7": [
+          {
+            "description": "Liquidity \u2013 Key Drivers and Management (\u20b9 crore) 2023-24 2024-25 Q1 Q2 H1 Q1 Q2 H1"
+          },
+          {
+            "column": "Drivers",
+            "type": "category"
+          },
+          {
+            "column": "(i) CiC [withdrawal (-) /return (+)]",
+            "type": "number"
+          },
+          {
+            "column": "(ii) Net Forex Purchases (+)/ Sales (-)",
+            "type": "number"
+          },
+          {
+            "column": "(iii) GoI Cash Balances [build-up (-) / drawdown (+)]",
+            "type": "number"
+          },
+          {
+            "column": "(iv) Excess Reserves [build-up (-) / drawdown (+)]",
+            "type": "number"
+          },
+          {
+            "column": "Management",
+            "type": "category"
+          },
+          {
+            "column": "(i) Net OMO Purchases (+)/ Sales (-)",
+            "type": "number"
+          },
+          {
+            "column": "(ii) Required Reserves [including both change in NDTL and CRR]",
+            "type": "number"
+          },
+          {
+            "column": "Memo Item",
+            "type": "category"
+          },
+          {
+            "column": "Net Absorption (+)/ Injection (-) as at end-period",
+            "type": "number"
+          }
+        ],
+        "Table IV.8": [
+          {
+            "description": "Banking and Monetary Aggregates (y-o-y growth, per cent) Indicator March 2023March 2024June 2024September 2024"
+          },
+          {
+            "column": "Indicator",
+            "type": "category"
+          },
+          {
+            "column": "Reserve money (Adjusted for CRR changes)",
+            "type": "number"
+          },
+          {
+            "column": "Broad money (M3)",
+            "type": "number"
+          },
+          {
+            "column": "Currency in circulation",
+            "type": "number"
+          },
+          {
+            "column": "Aggregate deposits",
+            "type": "number"
+          },
+          {
+            "column": "Demand deposits",
+            "type": "number"
+          },
+          {
+            "column": "Time deposits",
+            "type": "number"
+          },
+          {
+            "column": "Bank credit",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "Table V.1": [
+          {
+            "description": "Global economic activity indicators"
+          },
+          {
+            "column": "Indicator",
+            "type": "string"
+          },
+          {
+            "column": "Q2 2024 (q-o-q, saar)",
+            "type": "number"
+          },
+          {
+            "column": "Q1 2024 (q-o-q, saar)",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "Table V.1": [
+          {
+            "description": "Real GDP Growth (Per cent)"
+          },
+          {
+            "column": "Country",
+            "type": "string"
+          },
+          {
+            "column": "Q3- 2023",
+            "type": "number"
+          },
+          {
+            "column": "Q4- 2023",
+            "type": "number"
+          },
+          {
+            "column": "Q1- 2024",
+            "type": "number"
+          },
+          {
+            "column": "Q2- 2024",
+            "type": "number"
+          },
+          {
+            "column": "20232024 (P)",
+            "type": "string"
+          },
+          {
+            "column": "2025 (P)",
+            "type": "string"
+          }
+        ],
+        "Table V.2": [
+          {
+            "description": "GDP growth projection for BRICS economies"
+          },
+          {
+            "column": "Country",
+            "type": "string"
+          },
+          {
+            "column": "2024 projection",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "Table V.2": [
+          {
+            "description": "Select Macroeconomic Indicators for BRICS"
+          },
+          {
+            "column": "Country",
+            "type": "string"
+          },
+          {
+            "column": "2023",
+            "type": "number"
+          },
+          {
+            "column": "2024(P)",
+            "type": "number"
+          },
+          {
+            "column": "2025(P)",
+            "type": "number"
+          }
+        ],
+        "Table V.2 General Government gross debt (per cent of GDP)": [
+          {
+            "description": "General Government gross debt (per cent of GDP)"
+          },
+          {
+            "column": "Country",
+            "type": "string"
+          },
+          {
+            "column": "2023",
+            "type": "number"
+          },
+          {
+            "column": "2024(P)",
+            "type": "number"
+          },
+          {
+            "column": "2025(P)",
+            "type": "number"
+          }
+        ],
+        "Table V.2 CPI inflation rate (y-o-y, per cent)": [
+          {
+            "description": "CPI inflation rate (y-o-y, per cent)"
+          },
+          {
+            "column": "Country",
+            "type": "string"
+          },
+          {
+            "column": "2023",
+            "type": "number"
+          },
+          {
+            "column": "2024(P)",
+            "type": "number"
+          },
+          {
+            "column": "2025(P)",
+            "type": "number"
+          }
+        ],
+        "Table V.2 Current account balance (per cent of GDP)": [
+          {
+            "description": "Current account balance (per cent of GDP)"
+          },
+          {
+            "column": "Country",
+            "type": "string"
+          },
+          {
+            "column": "2023",
+            "type": "number"
+          },
+          {
+            "column": "2024(P)",
+            "type": "number"
+          },
+          {
+            "column": "2025(P)",
+            "type": "number"
+          }
+        ],
+        "Table V.2 General Government net lending/borrowing (per cent of GDP)": [
+          {
+            "description": "General Government net lending/borrowing (per cent of GDP)"
+          },
+          {
+            "column": "Country",
+            "type": "string"
+          },
+          {
+            "column": "2023",
+            "type": "number"
+          },
+          {
+            "column": "2024(P)",
+            "type": "number"
+          },
+          {
+            "column": "2025(P)",
+            "type": "number"
+          }
+        ],
+        "Table V.2 Forex reserves* (in US$ billion)": [
+          {
+            "description": "Forex reserves* (in US$ billion)"
+          },
+          {
+            "column": "Country",
+            "type": "string"
+          },
+          {
+            "column": "2022",
+            "type": "number"
+          },
+          {
+            "column": "2023",
+            "type": "number"
+          },
+          {
+            "column": "2024",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "Table V.3": [
+          {
+            "description": "Consumer Price Inflation (Y-o-y, Per cent) table description"
+          },
+          {
+            "column": "Country",
+            "type": "string"
+          },
+          {
+            "column": "Inflation TargetQ3: 2023",
+            "type": "numeric"
+          },
+          {
+            "column": "Q4: 2023",
+            "type": "numeric"
+          },
+          {
+            "column": "Q1: 2024",
+            "type": "numeric"
+          },
+          {
+            "column": "Q2: 2024",
+            "type": "numeric"
+          },
+          {
+            "column": "Jul- 24",
+            "type": "numeric"
+          },
+          {
+            "column": "Aug- 24",
+            "type": "numeric"
+          },
+          {
+            "column": "Sep- 24",
+            "type": "numeric"
+          }
+        ],
+        "Table V.4": [
+          {
+            "description": "CPI Inflation (y-o-y) \u2013 Select Economies table description"
+          },
+          {
+            "column": "Country",
+            "type": "string"
+          },
+          {
+            "column": "Q1: 2024",
+            "type": "numeric"
+          },
+          {
+            "column": "Q2: 2024",
+            "type": "numeric"
+          },
+          {
+            "column": "Q3: 2024",
+            "type": "numeric"
+          },
+          {
+            "column": "Q4: 2024",
+            "type": "numeric"
+          }
+        ]
+      }
+    ],
+    "volumetrics": {
+      "page_count": 108,
+      "characters_per_page": [
+        "0",
+        "0",
+        "129",
+        "0",
+        "1441",
+        "0",
+        "1961",
+        "2217",
+        "2098",
+        "2036",
+        "3859",
+        "4277",
+        "3803",
+        "1920",
+        "2589",
+        "2539",
+        "3942",
+        "1896",
+        "2704",
+        "2368",
+        "2482",
+        "4172",
+        "1108",
+        "1139",
+        "2488",
+        "2000",
+        "1493",
+        "1903",
+        "2983",
+        "2851",
+        "1970",
+        "3056",
+        "3010",
+        "1072",
+        "1940",
+        "2427",
+        "1422",
+        "2914",
+        "3157",
+        "1645",
+        "2384",
+        "3147",
+        "794",
+        "1359",
+        "1894",
+        "2879",
+        "588",
+        "1958",
+        "3852",
+        "2449",
+        "1023",
+        "2671",
+        "1863",
+        "1987",
+        "2906",
+        "1346",
+        "2655",
+        "2852",
+        "1506",
+        "1671",
+        "2464",
+        "1573",
+        "939",
+        "2282",
+        "2215",
+        "843",
+        "2225",
+        "2579",
+        "1927",
+        "2294",
+        "1109",
+        "3013",
+        "2405",
+        "1787",
+        "3591",
+        "2242",
+        "1193",
+        "2023",
+        "2635",
+        "3604",
+        "1043",
+        "1229",
+        "915",
+        "1811",
+        "1791",
+        "1817",
+        "2235",
+        "1152",
+        "2795",
+        "2655",
+        "2037",
+        "3744",
+        "3673",
+        "3590",
+        "1261",
+        "1742",
+        "4218",
+        "2191",
+        "4468",
+        "1040",
+        "2419",
+        "2576",
+        "3979",
+        "2545",
+        "2595",
+        "997",
+        "0",
+        "0"
+      ],
+      "character_count": 233013,
+      "word_count": 36373,
+      "sentence_count": 3966,
+      "average_word_length": 5.41,
+      "common_words": [
+        "the",
+        "in",
+        "and",
+        "of",
+        "to"
+      ]
+    },
+    "content_summary": "The Reserve Bank of India (RBI) publishes its Monetary Policy Report for October 2024, outlining the country's macroeconomic outlook. The report covers key developments since April 2024, inflation and growth prospects, balance of risks, and monetary policy responses to food inflation under alternative scenarios. It also examines prices and costs, demand and output, financial markets and liquidity conditions, and the external environment. Chapters include a discussion on consumption switching patterns in India, the impact of monetary policy surprises on equity markets, and recent changes in global monetary policy operating frameworks.",
+    "system_info": {
+      "processing_node": "DESKTOP-PQENQBT",
+      "os": "Windows",
+      "python_version": "3.12.1"
+    }
+  }
+]
